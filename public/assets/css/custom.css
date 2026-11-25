@@ -1,0 +1,128 @@
+.navbar .dropdown-toggle[aria-expanded="true"]:after {
+  transform: rotate(180deg);
+}
+
+.navbar .dropdown-toggle:after {
+  transition: 0.3s;
+}
+
+.main-sidebar li ul li .nav-link {
+  display: flex;
+  align-items: left;
+}
+
+.main-sidebar .nav-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-sidebar .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-sidebar .nav-link i {
+  margin-right: 10px;
+}
+
+.nav-sidebar .nav-link p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(0.5px);
+}
+
+tr > th {
+  vertical-align: middle !important;
+}
+
+.select2-container.is-invalid .select2-selection {
+  border-color: #dc3545 !important;
+}
+
+.select2-selection__rendered .select2-selection__choice {
+  display: none;
+}
+
+.select2-selection__rendered .select2-selection__choice.on {
+  display: block !important;
+}
+
+.select2-wrapper {
+  position: relative;
+}
+
+.select2-wrapper .select2-container {
+  width: 100% !important;
+}
+
+.select2-wrapper .select2-selection--multiple {
+  padding-right: 76px;
+  min-height: 38px;
+}
+
+.select2-wrapper .select2-actions {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  display: flex;
+  align-items: stretch;
+}
+
+.select2-wrapper .select2-actions .btn-action {
+  width: 38px;
+  border: 0;
+  border-left: 1px solid #ced4da;
+  background: #f8f9fa;
+  cursor: pointer;
+}
+
+.select2-wrapper .select2-actions .btn-action:hover {
+  background: #e9ecef;
+}
+
+.select2-results__option {
+  display: flex;
+  align-items: center;
+}
+
+.select2-results__option::before {
+  width: 18px;
+  margin-right: 8px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "";
+}
+
+.select2-results__option[aria-selected="true"]::before {
+  content: "\f00c";
+}
+
+#card-detail .table.table-borderless th,
+#card-detail .table.table-borderless td {
+  padding: 0;
+}
+
+#card-detail .table.table-borderless th {
+  padding-right: 40px;
+}
+
+#card-detail .table.table-borderless th,
+#card-detail .table.table-borderless td:first-child {
+  width: 1%;
+  white-space: nowrap;
+}
